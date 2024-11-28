@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="Dangky.html" method="GET" target="_blank">
+        <h1>Đăng ký</h1>
+        <label for="">Đăng nhập tài khoản</label>
+        <input type="text" name="user name" id=""placeholder="Nhập tk"><br>
+     
+
+        <label for="fullname">Họ và tên</label>
+        <input type="text" name="fullname" id=""placeholder="Nhập họ và tên của bạn" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="" placeholder="Nhập email của bạn" required><br>
+
+        <label for="password">Mật khẩu</label>
+        <input type="password" name="password" id=""placeholder="Nhập mật khẩu của bạn" minlength="8" required><br>
+
+        <label for="ngaysinh">Ngày sinh</label>
+        <input type="date" name="ngaysinh" id="" required><br>
+
+        <div>
+            <label>Giới tính:</label>
+            <label for="male">Nam</label>
+            <input type="radio" name="male" id="" value="Nam">
+
+            <label for="female">Nữ</label>
+            <input type="radio" name="female" id="" value="Nữ">
+        </div>
+
+        <div>
+            <label>Sở thích:</label>
+            <label for="reading">Đọc sách</label>
+            <input type="checkbox" name="reading" id="" value="Đọc sách">
+        
+            <label for="traveling">Du lịch</label>
+            <input type="checkbox" name="traveling" id="" value="Du lịch">
+
+            <label for="music">Nghe nhạc</label>
+            <input type="checkbox" name="music" id=" value="Nghe nhạc">
+        </div>
+
+        <label for="avatar">Tải lên ảnh đại diện</label>
+        <input type="file" name="avatar" id="" accept="image/*">
+
+        <input type="submit" value="Gửi" class="submit-button">
+    </form>
+</body>
+</html>
